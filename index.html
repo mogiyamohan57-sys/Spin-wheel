@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin & Win</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>🎡 Spin & Win</h1>
+    <p>Try Your Luck!</p>
+</header>
+
+<main class="container">
+
+    <!-- Pointer -->
+    <div class="pointer"></div>
+
+    <!-- Wheel -->
+    <canvas id="wheel" width="350" height="350"></canvas>
+
+    <!-- Spin Button -->
+    <button id="spinBtn">
+        SPIN NOW
+    </button>
+
+    <!-- Result -->
+    <div id="resultBox" class="result">
+        <h2>🎉 Congratulations!</h2>
+
+        <p id="resultText">
+            Press SPIN to play.
+        </p>
+
+        <button onclick="closeResult()">
+            OK
+        </button>
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Spin Wheel Game creat by Mohan
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
